@@ -12,8 +12,8 @@ from pubnub.exceptions import PubNubException
 
 # Set constants
 CHANNEL = 'course_proj' # Set PubNub channel name
-WRITE_KEY = 'pub-c-b1e360af-ef10-4f5a-a076-51b56f3365b3' # Publish key
-READ_KEY = 'sub-c-9fa4e123-aad7-446a-9aa8-5fcc19b18e9a' # Subscribe key
+WRITE_KEY: str = '' # Publish key
+READ_KEY: str = '' # Subscribe key
 CLIENT_ID = 'abhishek' # Universal Unique Identifier
 TO_PUBLISH = {"FROM SCRIPT" : "CONNECTED"} # Data to be published
 TURN_ON_CAMERA = {'ON', 'on', 'o', 'Start', 'start',}
