@@ -1,0 +1,4 @@
+mfrc522
+pywhatkit
+RPi.GPIO
+pubnub
